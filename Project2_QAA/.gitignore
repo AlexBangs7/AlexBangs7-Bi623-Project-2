@@ -5,6 +5,10 @@
 sratoolkit*
 
 SRR*/
-
-slurm*
 SRR*.fastq
+
+*.sh
+slurm*
+
+fastqc-output/
+!fastqc-output/*.html
