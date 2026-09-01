@@ -1,0 +1,14 @@
+[workspace]
+authors = ["AlexBangs7 <alexandrabangs@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "Project2_QAA"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+fastqc = ">=0.12.1,<0.13"
+cutadapt = ">=5.2,<6"
+trimmomatic = ">=0.41,<0.42"
+sra-tools = ">=3.4.1,<4"
