@@ -149,3 +149,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Markdown instructions (copy of R markdown files)
+Project2_parts1_3.md
+Project2_parts4_5.md
