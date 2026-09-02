@@ -3,3 +3,16 @@ title: "Project2_Part2_answers"
 output: html_document
 ---
 
+6. What proportion of reads (both R1 and R2) were trimmed?
+
+For SRR25630297, I had 12.2% of all read pairs had adapter contamination and needed trimming
+For SRR25630381, I had 28.6% of all read pairs had adapter contamination and needed trimming
+
+
+
+8. Bash command to develop trimmed read distribution files:
+grep -A1 "@SRR" SRR25630381_1_paired.fastq | grep -v "@SRR" | grep -v "^--" | awk '{print(length($0))}'| sort -n| uniq -c | sort -g > 381_1_distribution.txt
+I then manually added column labels at the top of each txt file
+
+8. Comment on whether you expect R1s and R2s to be adapter-trimmed at different rates and why.
+I don't expect 
