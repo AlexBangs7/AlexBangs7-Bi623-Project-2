@@ -153,3 +153,11 @@ rsconnect/
 # Markdown instructions (copy of R markdown files)
 Project2_parts1_3.md
 Project2_parts4_5.md
+
+
+# Misc.
+
+Project2_Part3/campylomormyrus/
+Project2_Part3/campylomormyrus.fasta
+Project2_Part3/STARalign_output/
+Project2_QAA/agat_log_campylomormyrus/
