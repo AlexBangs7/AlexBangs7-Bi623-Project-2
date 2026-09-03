@@ -8,7 +8,7 @@ def get_args():
     return parser.parse_args()
 args = get_args()
 
-file = args.i
+file = args.file
 
 with open(file, "r") as sam:
     mapped, unmapped = 0, 0
