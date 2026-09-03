@@ -1,0 +1,5 @@
+Command being timed: pigz SRR25630381_1_paired.fastq SRR25630381_2_paired.fastq
+Percent of CPU this job got: 745%
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:50.80
+Maximum resident set size (kbytes): 63544
+Exit status: 0
