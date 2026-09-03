@@ -8,4 +8,4 @@ grep -A1 "@SRR" SRR25630381_1_paired.fastq | grep -v "@SRR" | grep -v "^--" | aw
 I then manually added column labels at the top of each txt file
 
 8. Comment on whether you expect R1s and R2s to be adapter-trimmed at different rates and why.
-I don't expect a variation in trimming rates for the different reads, it just comes down to adapter contamination rates.
+I don't expect a variation in trimming rates for the different reads, it just comes down to adapter contamination rates. For my SRR25630381, the forward and reverse trimming rates were both 14.3%
