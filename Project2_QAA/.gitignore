@@ -9,5 +9,7 @@ SRR*.fastq
 
 *.sh
 slurm*
+Project2_Part2/slurm*
+
 
 fastqc-output/*.zip
